@@ -6,7 +6,7 @@ LABEL author="Paul Tötterman <paul.totterman@iki.fi>"
 ENV DBHOST="mariadb" \
     DBNAME="racktables" \
     DBUSER="racktables" \
-    DBPASS="5ksJ7BR6"
+    DBPASS=""
 
 COPY entrypoint.sh /entrypoint.sh
 RUN apk --no-cache add \
