@@ -15,3 +15,4 @@ the configuration if you intend to use it in production.
 ## Configuration
 
 Look at the env vars available in the `Dockerfile` and `entrypoint.sh`.
+# dockcompZ
