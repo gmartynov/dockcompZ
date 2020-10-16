@@ -1,0 +1,16 @@
+TYPE=VIEW
+query=select `racktables`.`Object`.`id` AS `id`,`racktables`.`Object`.`name` AS `name`,`racktables`.`Object`.`label` AS `label`,`racktables`.`Object`.`objtype_id` AS `objtype_id`,`racktables`.`Object`.`asset_no` AS `asset_no`,`racktables`.`Object`.`has_problems` AS `has_problems`,`racktables`.`Object`.`comment` AS `comment` from `racktables`.`Object` where (`racktables`.`Object`.`objtype_id` not in (1560,1561,1562))
+md5=05ef089b65525679fe462fd1d6d4ccfb
+updatable=1
+algorithm=0
+definer_user=racktables
+definer_host=localhost
+suid=2
+with_check_option=0
+timestamp=2019-12-06 20:49:14
+create-version=2
+source=SELECT id, name, label, objtype_id, asset_no, has_problems, comment FROM `Object`\n WHERE `objtype_id` NOT IN (1560, 1561, 1562)
+client_cs_name=utf8
+connection_cl_name=utf8_general_ci
+view_body_utf8=select `racktables`.`Object`.`id` AS `id`,`racktables`.`Object`.`name` AS `name`,`racktables`.`Object`.`label` AS `label`,`racktables`.`Object`.`objtype_id` AS `objtype_id`,`racktables`.`Object`.`asset_no` AS `asset_no`,`racktables`.`Object`.`has_problems` AS `has_problems`,`racktables`.`Object`.`comment` AS `comment` from `racktables`.`Object` where (`racktables`.`Object`.`objtype_id` not in (1560,1561,1562))
+mariadb-version=100143
